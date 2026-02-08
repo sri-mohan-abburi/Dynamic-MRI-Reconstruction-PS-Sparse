@@ -22,5 +22,14 @@ Where:
 2.  **K-Space Simulation:** Computing 2D FFT and applying undersampling masks.
 3.  **Optimization:** Iterative reconstruction using Conjugate Gradient (CG) for the low-rank components.
 
+
+
+## 📊 Results
+The implementation successfully recovers anatomical structures from aliased inputs.
+* **Aliased Input:** Shows significant artifacts due to undersampling.
+* **Reconstruction:** Restores spatial details using the low-rank (UV) decomposition.
+
+
+
 ## 📄 Reference
 Based on the PS-Sparse method for dynamic imaging (IEEE 2012).
